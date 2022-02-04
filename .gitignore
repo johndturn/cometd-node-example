@@ -2,3 +2,4 @@
 node_modules/
 cert/
 config.json
+generate-certificate.sh

@@ -3,11 +3,11 @@
 CERT_DIRECTORY="cert"
 
 # NOTE: You must fill these out first
-COUNTRY=
-STATE=
-CITY=
-DOMAIN=
-EMAIL=
+COUNTRY=			# Ex. US
+STATE=				# Ex. Utah
+CITY= 				# Ex. Salt Lake
+DOMAIN= 			# Ex. dev.johnturner.cometd-example
+EMAIL=				# Ex. youremail@example.com
 
 # Set up the directory if it doesn't exist
 # NOTE: Assumes that you're running this script from the project root
