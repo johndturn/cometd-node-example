@@ -15,3 +15,4 @@
 
 _Example Connected App Setup_
 
+![Screen shot of Connected App Setup](./assets/connected-app-screenshot.png "Connected App")
