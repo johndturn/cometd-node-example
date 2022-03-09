@@ -13,7 +13,7 @@ async function main() {
   const authToken = await authLib.authenticate(config);
 
   cometd.configure({
-    url: config.cometDUrl,
+    url: `${config.myDomain}/cometd/54.0/`,
     requestHeaders: {
       Authorization: `Bearer ${authToken}`,
     },
@@ -22,10 +22,7 @@ async function main() {
   cometd.handshake(function (h) {
     if (h.successful) {
       // Subscribe to receive messages from the server.
-      cometd.subscribe(config.platformEvent.topicChannel + '/cometd/54.0', function (message) {
-        console.log('>>> Message: ');
-        console.log(message);
-
+      cometd.subscribe(config.platformEvent.topicChannel, function (message) {
         const dataFromServer = message.data;
 
         console.log('>>> Data: ');

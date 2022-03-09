@@ -1,0 +1,11 @@
+{
+  "myDomain": "https://XXXXXXXXXXX.my.salesforce.com",
+  "apiVersion": "54.0",
+  "consumerKey": "XXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "salesforceUsername": "test@test.com",
+  "salesforceAuthServer": "https://login.salesforce.com",
+  "platformEvent": {
+    "apiName": "Test_Event__e",
+    "topicChannel": "/event/Test_Event__e"
+  }
+}
