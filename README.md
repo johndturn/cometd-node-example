@@ -1,5 +1,7 @@
 # NodeJS CometD <> Salesforce Example
 
+> Built with ❤️ &nbsp;by John Turner
+
 Small POC of subscribing to Salesforce Platform Events via the NodeJS CometD library.
 
 Utilizes the [OAuth 2.0 JWT Bearer flow](https://help.salesforce.com/s/articleView?id=sf.remoteaccess_oauth_jwt_flow.htm&type=5) for authenticating to Salesforce.
