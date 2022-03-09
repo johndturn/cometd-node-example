@@ -42,3 +42,11 @@ _Example Connected App Setup_
 1. Set up the `config.json` according to the information from your Connected App and SFDC instance
 1. Install dependencies `npm i`
 1. Run: `npm run start`
+
+## Further Learning
+
+- [Trailhead](https://trailhead.salesforce.com/en/content/learn/modules/platform_events_basics/platform_events_subscribe)
+- [Salesforce Streaming API Client Information](https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/using_streaming_api_client_connection.htm)
+- [Salesforce CometD Documentation](https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_subscribe_cometd.htm)
+- [CometD Website](https://cometd.org/)
+- [Adapting JavaScript CometD for Node](https://webtide.com/cometd-and-nodejs-1/)
